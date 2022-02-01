@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Website</title>
+    <link rel="icon" href="picture/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="picture/logo.jpg" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#">about</a>
+            <a href="#">Endegered animals</a>
+            <a href="#">visit</a>
+        </nav>
+
+        <div class="icons">
+            <button class="btn">Join Us</button>
+            <div class="menutoggle" id="menu-btn"><i class="fas fa-bars"></i></div>
+
+            <div class="closetoggle" id="close-btn"><i class="fas fa-times"></i></div>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <video src="picture/backvideo.mp4" muted loop autoplay></video>
+        <div class="text">
+            <p>“Some people talk to animals. Not many listen though. That's the problem.”</p>
+            <div class="nametag">
+                <div class="line"></div>
+                <span>A.A. Milne, Winnie-the-Pooh</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bookingsec" id="bookingsec">
+
+        <h1 class="heading"> <span>Booking Here</span> </h1>
+
+        <div class="row">
+            <div class="address">
+                <div class="head">
+                    <h1>Opening time : 8:30 Am<br>
+                        Closing time : 6:30 Pm</h1>
+
+                </div>
+                <div class="rules">
+                    <div class="rulesahead">
+                        - : Rules and Regulations : -
+                    </div>
+                    <ul>
+                        <li>Respect the Animals</li>
+                        <li>Respect your Boundaries</li>
+                        <li>Do Not Feed the Animals</li>
+                        <li>Children Must be Supervised at All Times</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <form action="">
+                <h3>Book Ticket Here</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input placeholder="Number">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-ticket-alt"></span>
+                    <input type="number" placeholder="Number of Tickets" maxlength="2">
+                </div>
+                <input type="submit" value="Book Now" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+    <section class="animals" id="animals">
+
+
+        <h1 class="heading">our Animals</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="picture/Animal1Giraffe.jpg" alt="">
+                <p><span>G</span>iraffe</p>
+                <div class="descrip">Giraffe grow about 4 feet (1.2 meters) in their first year of life.
+                    A newborn giraffe is about 6 feet (1.9 meters) tall at birth and weighs
+                    about 150 pounds (68 kilograms).</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal2Seahorse.jpg" alt="">
+                <p><span>S</span>eahorses</p>
+                <div class="descrip">Seahorses are tiny fishes that are named for the shape of their head,
+                    which looks like the head of a tiny horse. There are at least 25 species of seahorses.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal3Amur Leopard.jpg" alt="">
+                <p><span>A</span>mur <span>L</span>eopard</p>
+                <div class="descrip">Slowly stalking down the snowy hillside, the Amur leopard watches its prey through
+                    the trees.
+                    one of its few remaining food sources
+                    during the cold Russian winter.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal6Black Rhinoceros.jpg" alt="">
+                <p><span>B</span>lack <span>R</span>hinoceros</p>
+                <div class="descrip">Black rhinoceroses have a sort of attack-first-and-ask-questions-later attitude.
+                    When a rhino catches the scent of a human or anything else unfamiliar,
+                    it is likely to charge. Rhinos can't see well, so they sometimes charge.
+                </div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal4Indian Peafowl.jpg" alt="">
+                <p><span>I</span>ndian <span>P</span>eafowl</p>
+                <div class="descrip">Indian peafowl are a species in a group of birds called pheasants.
+                    The males are called peacocks, while the females are called peahens.
+                    Together, they are peafowl.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal5Bald Eagle.jpg" alt="">
+                <p><span>B</span>ald <span>E</span>agle</p>
+                <div class="descrip">A bald eagle's white head may make it look bald. But actually
+                    the name comes from an old English word, "balde," meaning white.
+                    These graceful birds have been the national symbol of the United States since 1782.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal7south-africa-elephant.jpg" alt="">
+                <p><span>S</span>outh-Africa-<span>E</span>lephant</p>
+                <div class="descrip">In South Africa the Addo Elephant and Kruger National Park protect
+                    large herds. Due to rigorous conservation measures the Elephant
+                    population in South Africa has grown</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal8Chimpanzee.jpg" alt="">
+                <p><span>C</span>himpanzees</p>
+                <div class="descrip">Chimpanzees are omnivores, meaning they eat both plants and animals.
+                    Young chimpanzees learn from observing their mothers and other adults which
+                    foods are safe to eat and where ripe food is located.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal9Kangaroo.jpg" alt="">
+                <p><span>K</span>angaroo</p>
+                <div class="descrip">Kangaroos possess powerful hind legs, a long, strong tail, and small front legs.
+                    Kangaroos belong to the animal family Macropus, literally "big foot."
+                    Thanks to their large feet, kangaroos can leap some 30 feet</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal10owl.jpg" alt="">
+                <p><span>O</span>wl</p>
+                <div class="descrip">Owls are birds in the order Strigiformes. There are 200 species, and they are all
+                    animals of prey. Most of them are solitary and nocturnal; in fact, they are the
+                    only large group of birds which hunt at night. Owls are specialists night-time hunters.</div>
+            </div>
+            <div class="box">
+                <img src="picture/animal11panda.jpg" alt="">
+                <p><span>R</span>ed<span>p</span>anda</p>
+                <div class="descrip">The red panda is slightly larger than a domestic cat with a bear-like body and
+                    thick russet fur. The belly and limbs
+                    are black, and there are white markings on the side of the head and above its small eyes.</div>
+            </div>
+            <div class="box">
+                <img src="picture/Animal12tiger.jpg" alt="">
+                <p><span>T</span>iger</p>
+                <div class="descrip">The tiger (Panthera tigris) is the largest living cat species and a member of the
+                    genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white
+                    underside.</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Visitor's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="picture/avatar.png" class="user" alt="">
+                <h3>Axel Hidayat</h3>
+                <h2>Engineer</h2>
+                <p>"Nice place in the winter for having a stroll.
+                    The pandas were the most famous animal in the zoo, got a very long queue"</p>
+            </div>
+            <div class="box">
+                <img src="picture/avatar1.png" class="user" alt="">
+                <h3>Abhirup Basak</h3>
+                <h2>Wildlife Photographer</h2>
+                <p>"We thoroughly enjoyed this zoo on our visit to Japan. I loved the way the zoo was set-up and the
+                    animal enclosures were cool too."</p>
+            </div>
+            <div class="box">
+                <img src="picture/avatar2.jpg" class="user" alt="">
+                <h3>sujan akhuli</h3>
+                <h2>Zoologist</h2>
+                <p>"Its a great place to visit. Lot’s of animal and wuite big. A good experience for everyone from young
+                    to old.
+                    But sometimes when you look at the eye of the animals. It felt really bad looking at their eyes"</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Zoo Website</h3>
+            <p>a zoo is the only place where all the prisoners are innocent</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;designed by <span>Abhirup</span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
